@@ -34,10 +34,10 @@ import (
 	"time"
 	"encoding/csv" // Add Support for writting to csv files
 
-	"github.com/coreos/clair/api/v1"
-	"github.com/coreos/clair/utils/types"
+	"github.com/aaravamudan2014/clair/api/v1"
+	"github.com/aaravamudan2014/clair/utils/types"
 	"github.com/fatih/color"
-	"github.com/kr/text"
+	_ "github.com/kr/text"
 )
 
 const (
@@ -245,7 +245,7 @@ func AnalyzeLocalImage(imageName string, minSeverity types.Priority, endpoint, m
 	By(priority).Sort(vulnerabilities)
 
 	//Create .csv file for vulnerabilities
-	file, err := os.Create("vulnerabilities.csv")
+	file, err := os.Create(imageName+".csv")
 	if err != nil {
 		return err
 	}
@@ -483,6 +483,5 @@ func coloredSeverity(severity types.Priority) string {
 		return white(severity)
 	}
 }
-
 
 
