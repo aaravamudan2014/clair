@@ -1,36 +1,4 @@
 
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Marketplace
-    Gist
-
-    @aaravamudan2014
-
-0
-0
-
-    295
-
-mridley2014/clair forked from coreos/clair
-Code
-Pull requests 0
-Projects 0
-clair/contrib/analyze-local-images/main.go
-be3a815 on Apr 28
-@mridley2014 mridley2014 Add Image Name
-@mridley2014
-@Quentin-M
-@liangchenye
-@ruokai-lai
-@jzelinskie
-@keloyang
-@fatalbanana
-@mnuessler
-@josephschorr
-489 lines (405 sloc) 12.3 KB
 // Copyright 2015 clair authors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -519,7 +487,4 @@ func coloredSeverity(severity types.Priority) string {
 
 
 
-    Contact GitHub API Training Shop Blog About 
-
-    © 2017 GitHub, Inc. Terms Privacy Security Status Help 
 
