@@ -34,8 +34,8 @@ import (
 	"time"
 	"encoding/csv" // Add Support for writting to csv files
 
-	"github.com/mridley2014/clair/api/v1"
-	"github.com/mridley2014/clair/utils/types"
+	"github.com/coreos/clair/api/v1"
+	"github.com/coreos/clair/utils/types"
 	"github.com/fatih/color"
 	_ "github.com/kr/text"
 )
