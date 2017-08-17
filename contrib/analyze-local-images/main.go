@@ -37,7 +37,7 @@ import (
 	"github.com/coreos/clair/api/v1"
 	"github.com/coreos/clair/utils/types"
 	"github.com/fatih/color"
-	_ "github.com/kr/text"
+
 )
 
 const (
